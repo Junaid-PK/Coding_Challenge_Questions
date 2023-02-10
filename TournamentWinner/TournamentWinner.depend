@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1676015263 source:d:\projects\coding_challenge_questions\tournamentwinner\program.cpp
+	<iostream>
+	<vector>
+	<map>
+
