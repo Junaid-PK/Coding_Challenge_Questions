@@ -6,9 +6,6 @@ int minRewards(vector<int> scores) {
   // Write your code here.
   int size = scores.size();
   vector<int> rewards(size,1);
-  for(int k=0;k<size;k++){
-        cout<<rewards[k];
-  }
 
   for (int i=1; i<size;i++){
     if (scores[i]>scores[i-1]){
