@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1676348122 source:d:\projects\coding_challenge_questions\minrewards\program.cpp
+	<iostream>
+	<vector>
+
