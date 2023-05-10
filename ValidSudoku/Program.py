@@ -12,8 +12,12 @@ def isValidSudoku(board):
             rows[r].add(board[r][c])
             cols[c].add(board[r][c])
             squares[(r//3, c//3)].add(board[r][c])
+            print(rows)
+            print(cols)
+            print(squares)
     return True
             
 
 print(isValidSudoku([["5","3",".",".","7",".",".",".","."]]))
+
     
