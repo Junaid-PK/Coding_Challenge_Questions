@@ -7,13 +7,9 @@ class LinkedList:
 
 def middleNode(linkedList):
     # Write your code here.
-    temp = linkedList
-    count = 0
-    while temp is not None:
-        count+=1
-        temp = temp.next
-    middleNode = linkedList
-    for _ in range(count // 2):
-        middleNode = middleNode.next
-    return middleNode
-
+    fastpointer = linkedList
+    slowpointer = linkedList
+    while(fastpointer and fastpointer.next):
+        fastpointer = fastpointer.next.next
+        slowpointer = slowpointer.next
+    return slowpointer
